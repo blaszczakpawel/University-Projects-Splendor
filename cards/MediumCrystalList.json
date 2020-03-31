@@ -1,0 +1,131 @@
+[
+  {
+    "victoryPoints": "2",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "2"
+      },
+      {
+        "name": "emerald",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "1"
+      }
+    ]
+  },{
+    "victoryPoints": "5",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "7"
+      },
+      {
+        "name": "emerald",
+        "count": "5"
+      },
+      {
+        "name": "rubin",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "2"
+      }
+    ]
+  },
+   {
+    "victoryPoints": "2",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "2"
+      },
+      {
+        "name": "emerald",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "1"
+      }
+    ]
+  },{
+    "victoryPoints": "5",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "7"
+      },
+      {
+        "name": "emerald",
+        "count": "5"
+      },
+      {
+        "name": "rubin",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "2"
+      }
+    ]
+  },
+   {
+    "victoryPoints": "2",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "2"
+      },
+      {
+        "name": "emerald",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "1"
+      }
+    ]
+  },{
+    "victoryPoints": "5",
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": "7"
+      },
+      {
+        "name": "emerald",
+        "count": "5"
+      },
+      {
+        "name": "rubin",
+        "count": "3"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": "2"
+      }
+    ]
+  }
+]

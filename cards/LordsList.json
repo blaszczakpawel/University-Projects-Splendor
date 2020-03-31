@@ -1,0 +1,20 @@
+[
+  {
+    "victoryPoints": 3,
+    "photo": "xd",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": 3
+      },
+      {
+        "name": "emerald",
+        "count": 3
+      },
+      {
+        "name": "rubin",
+        "count": 3
+      }
+    ]
+  }
+]

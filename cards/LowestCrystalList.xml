@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<data>
+    <card>
+        <victoryPoints>2</victoryPoints>
+        <costs>
+            <cost name="diampond">3</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">3</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XD</photo>
+    </card>
+    <card>
+        <victoryPoints>0</victoryPoints>
+        <costs>
+            <cost name="diampond">1</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">3</cost>
+        </costs>
+        <earnings>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XDDD</photo>
+    </card>
+    <card>
+        <victoryPoints>5</victoryPoints>
+        <costs>
+            <cost name="diampond">5</cost>
+            <cost name="emerald">8</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">2</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XXD</photo>
+    </card>
+    <card>
+        <victoryPoints>2</victoryPoints>
+        <costs>
+            <cost name="diampond">3</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">3</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XD</photo>
+    </card>
+    <card>
+        <victoryPoints>0</victoryPoints>
+        <costs>
+            <cost name="diampond">1</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">3</cost>
+        </costs>
+        <earnings>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XDDD</photo>
+    </card>
+    <card>
+        <victoryPoints>5</victoryPoints>
+        <costs>
+            <cost name="diampond">5</cost>
+            <cost name="emerald">8</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">2</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XXD</photo>
+    </card>
+    <card>
+        <victoryPoints>2</victoryPoints>
+        <costs>
+            <cost name="diampond">3</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">3</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XD</photo>
+    </card>
+    <card>
+        <victoryPoints>0</victoryPoints>
+        <costs>
+            <cost name="diampond">1</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">3</cost>
+        </costs>
+        <earnings>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XDDD</photo>
+    </card>
+    <card>
+        <victoryPoints>5</victoryPoints>
+        <costs>
+            <cost name="diampond">5</cost>
+            <cost name="emerald">8</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">2</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XXD</photo>
+    </card>
+    <card>
+        <victoryPoints>2</victoryPoints>
+        <costs>
+            <cost name="diampond">3</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">3</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XD</photo>
+    </card>
+    <card>
+        <victoryPoints>0</victoryPoints>
+        <costs>
+            <cost name="diampond">1</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">3</cost>
+        </costs>
+        <earnings>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XDDD</photo>
+    </card>
+    <card>
+        <victoryPoints>5</victoryPoints>
+        <costs>
+            <cost name="diampond">5</cost>
+            <cost name="emerald">8</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">2</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XXD</photo>
+    </card>
+    <card>
+        <victoryPoints>2</victoryPoints>
+        <costs>
+            <cost name="diampond">3</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">3</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XD</photo>
+    </card>
+    <card>
+        <victoryPoints>0</victoryPoints>
+        <costs>
+            <cost name="diampond">1</cost>
+            <cost name="emerald">2</cost>
+            <cost name="emeraldd">3</cost>
+        </costs>
+        <earnings>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XDDD</photo>
+    </card>
+    <card>
+        <victoryPoints>5</victoryPoints>
+        <costs>
+            <cost name="diampond">5</cost>
+            <cost name="emerald">8</cost>
+            <cost name="emeraldd">7</cost>
+        </costs>
+        <earnings>
+            <earning name="diamond">2</earning>
+            <earning name="amethyts">1</earning>
+        </earnings>
+        <photo>XXD</photo>
+    </card>
+</data>
