@@ -3,3 +3,5 @@ class Lord:
         self.__vicotryPoints=victoryPoints
         self.__photo=photo
         self.__coasts=coasts
+    def getImagePath(self):
+        return self.__photo

@@ -6,3 +6,11 @@ class Coin:
         return f'{self.__count} of {self.__type}'
     def getType(self):
         return self.__type
+    def getCount(self):
+        return self.__count
+    def getCoin(self,count):
+        if self.__count-count>=0:
+            return count
+        return 0
+    def changeCount(self,count):
+        self.__count+=count
