@@ -8,3 +8,5 @@ class Player:
             self.__pocet.push(C.Coin(i, 0))
     def getPocket(self):
         return self.__pocet
+    def getName(self):
+        return self.__name

@@ -47,3 +47,6 @@ class AcceptionBoard:
         return AcceptionBoard.__instance.getFrame()
     def move(self,str,cfg):
         AcceptionBoard.__instance.move(str,cfg)
+    def refresh(self):
+        print("Odświerzam Acception Board")
+        self.__instance.clear()

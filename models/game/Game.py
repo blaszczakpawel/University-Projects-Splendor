@@ -14,6 +14,8 @@ class Game:
             self.__pocket = PC.Pocket()
             for i in ['one','two']:
                 self.__players[i]=P.Player(i)
+        def getPlayer(self,str):
+            return self.__players[str]
         def getBoard(self):
             return self.__board
         def setup(self):
@@ -50,6 +52,8 @@ class Game:
         Game.__instance.move(str)
     def setup(self):
         Game.__instance.setup()
+    def getPlayer(self,str):
+        Game.__getPlayer(str)
 
 def moveTakeCoin(boardPocket, playerPocket, moves):
     if playerPocket.coinsCount()+len(moves)>10:
