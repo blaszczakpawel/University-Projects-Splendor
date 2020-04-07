@@ -102,5 +102,781 @@
         "count": 1
       }
     ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card6.png",
+    "coasts": [
+      {
+        "name": "emerald",
+        "count": 3
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card7.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card8.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card9.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 2
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card10.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 3
+      },
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card11.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 2
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card12.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 2
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 1,
+    "photo": "photos\\Low\\card13.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": 4
+      }
+    ],
+    "earnings": [
+      {
+        "name": "sapphire",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card14.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "sapphire",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card15.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 3
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card16.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card17.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card18.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 2
+      },
+      {
+        "name": "emerald",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card19.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card20.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 2
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 1,
+    "photo": "photos\\Low\\card21.png",
+    "coasts": [
+      {
+        "name": "emerald",
+        "count": 4
+      }
+    ],
+    "earnings": [
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card22.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 2
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card23.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 2
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card24.png",
+    "coasts": [
+      {
+        "name": "emerald",
+        "count": 2
+      },
+      {
+        "name": "diamond",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 1,
+    "photo": "photos\\Low\\card25.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 4
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card26.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 2
+      },
+      {
+        "name": "diamond",
+        "count": 2
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card27.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card28.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 2
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "sapphire",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card29.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 2
+      },
+      {
+        "name": "emerald",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "sapphire",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card30.png",
+    "coasts": [
+      {
+        "name": "emerald",
+        "count": 2
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "sapphire",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card31.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 3
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card32.png",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": 3
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card33.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": 3
+      }
+    ],
+    "earnings": [
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card34.png",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": 2
+      },
+      {
+        "name": "ruby",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card35.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 2
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card36.png",
+    "coasts": [
+      {
+        "name": "emerald",
+        "count": 2
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 1,
+    "photo": "photos\\Low\\card37.png",
+    "coasts": [
+      {
+        "name": "sapphire",
+        "count": 4
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card38.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 3
+      },
+      {
+        "name": "diamond",
+        "count": 1
+      },
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 1,
+    "photo": "photos\\Low\\card39.png",
+    "coasts": [
+      {
+        "name": "diamond",
+        "count": 4
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "victoryPoints": 0,
+    "photo": "photos\\Low\\card40.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": 1
+      },
+      {
+        "name": "sapphire",
+        "count": 1
+      },
+      {
+        "name": "emerald",
+        "count": 1
+      },
+      {
+        "name": "diamond",
+        "count": 2
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": 1
+      }
+    ]
   }
 ]

@@ -1,5 +1,6 @@
 import json
 import models.simple.CrystalCard as CC
+import random as R
 class CrystalCardDeck:
     def __init__(self,path):
         self.__deck=[]
@@ -9,6 +10,5 @@ class CrystalCardDeck:
             self.__deck.append(CC.CrystalCard(i['victoryPoints'],i['coasts'],i['earnings'],i['photo']))
     def getNext(self):
         if len(self.__deck)!=0:
-            pom=self.__deck[0]
-            self.__deck.remove(pom)
-            return pom
+            random = R.randint(0, len(self.__deck) - 1)
+            return self.__deck[random]
