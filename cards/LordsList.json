@@ -1,19 +1,83 @@
 [
   {
-    "victoryPoints": 3,
-    "photo": "xd",
+    "victoryPoints": "3",
+    "photo": "photos\\Lords\\lord1.png",
     "coasts": [
       {
+        "name": "onyx",
+        "count": "4"
+      },
+      {
         "name": "diamond",
-        "count": 3
+        "count": "4"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "3",
+    "photo": "photos\\Lords\\lord2.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": "3"
+      },
+      {
+        "name": "diamond",
+        "count": "3"
+      },
+      {
+        "name": "onyx",
+        "count": "3"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "3",
+    "photo": "photos\\Lords\\lord3.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": "4"
+      },
+      {
+        "name": "onyx",
+        "count": "4"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "3",
+    "photo": "photos\\Lords\\lord4.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": "3"
       },
       {
         "name": "emerald",
-        "count": 3
+        "count": "3"
       },
       {
-        "name": "rubin",
-        "count": 3
+        "name": "sapphire",
+        "count": "3"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "3",
+    "photo": "photos\\Lords\\lord5.png",
+    "coasts": [
+      {
+        "name": "ruby",
+        "count": "3"
+      },
+      {
+        "name": "emerald",
+        "count": "3"
+      },
+      {
+        "name": "onyx",
+        "count": "3"
       }
     ]
   }

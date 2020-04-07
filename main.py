@@ -1,3 +1,5 @@
-import  models.GUI.GUI as GUI
+import models.game.Game as G
 
-a= GUI.GUI()
+
+a= G.Game()
+a.setup()
