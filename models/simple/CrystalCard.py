@@ -1,25 +1,19 @@
 import models.simple.Pocket as Pocket
 import models.simple.Coin as Coin
+import tkinter as tk
 class CrystalCard:
     __back=None
     def __init__(self,victoryPoints,coasts,earnings,photo):
-        self.__photo=photo
+        self.__imagePath=photo
         self.__victoryPoints=victoryPoints
         self.__coasts= Pocket.Pocket()
         self.__earnings= Pocket.Pocket()
-<<<<<<< Updated upstream
-=======
         self.__image=None
         self.__smalImage=None
->>>>>>> Stashed changes
         for i in coasts:
             self.__coasts.push(Coin.Coin(i['name'], i['count']))
         for i in earnings:
             self.__earnings.push(Coin.Coin(i['name'], i['count']))
-<<<<<<< Updated upstream
-    def getImagePath(self):
-        return self.__photo
-=======
     def __str__(self):
         return f"cardVP: {self.__victoryPoints} Earnings: {self.__earnings.__str__()} Coasts: {self.__coasts.__str__()}"
     def getBack(self):
@@ -44,5 +38,4 @@ class CrystalCard:
         return self.__victoryPoints
 
 
->>>>>>> Stashed changes
 

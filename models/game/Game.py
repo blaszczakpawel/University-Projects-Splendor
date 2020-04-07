@@ -1,10 +1,10 @@
 import models.game.Board as B
 import models.game.Player as P
 import models.simple.Pocket as PC
+import models.simple.Coin as C
+import models.GUI.GUI as G
 import tkinter as tk
 class Game:
-<<<<<<< Updated upstream
-=======
     __instance=None
     class __Game:
         def __init__(self):
@@ -62,17 +62,10 @@ class Game:
                         if self.__players['one'].getVictoryPoints()<self.__players['two'].getVictoryPoints():
                             print("Wygrał gracz two")
             self.__gui.refresh()
->>>>>>> Stashed changes
     def __init__(self):
-        self.__players=[]
-        for i in ['one','two']:
-            self.__players.append(P.Player(i))
-        self.__board=B.Board()
-        self.__pocket=PC.Pocket()
+        if not Game.__instance:
+            Game.__instance=Game.__Game()
     def getBoard(self):
-<<<<<<< Updated upstream
-        return self.__board
-=======
         return Game.__instance.getBoard()
     def move(self,str):
         Game.__instance.move(str)
@@ -186,4 +179,3 @@ def moveTakeCard(board,player,move):
 
 
 
->>>>>>> Stashed changes

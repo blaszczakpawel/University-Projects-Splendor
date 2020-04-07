@@ -1,12 +1,6 @@
 [
   {
     "victoryPoints": 3,
-<<<<<<< Updated upstream
-    "photo": "xd",
-    "coasts": [
-      {
-        "name": "diamond",
-=======
     "photo": "photos\\Lords\\lord1.png",
     "coasts": [
       {
@@ -75,7 +69,6 @@
     "coasts": [
       {
         "name": "ruby",
->>>>>>> Stashed changes
         "count": 3
       },
       {
@@ -83,9 +76,6 @@
         "count": 3
       },
       {
-<<<<<<< Updated upstream
-        "name": "rubin",
-=======
         "name": "onyx",
         "count": 3
       }
@@ -165,7 +155,6 @@
       },
       {
         "name": "diamond",
->>>>>>> Stashed changes
         "count": 3
       }
     ]

@@ -1,10 +1,9 @@
+import tkinter as tk
 class Lord:
     def __init__(self,victoryPoints,photo,coasts):
         self.__vicotryPoints=victoryPoints
         self.__photo=photo
         self.__coasts=coasts
-<<<<<<< Updated upstream
-=======
         self.__image=None
         self.__smallImage=None
     def __getImagePath(self):
@@ -21,4 +20,3 @@ class Lord:
         return self.__coasts
     def getvictoryPoints(self):
         return self.__vicotryPoints
->>>>>>> Stashed changes

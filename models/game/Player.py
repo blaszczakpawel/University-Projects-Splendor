@@ -1,12 +1,11 @@
 import models.simple.Pocket as P
+import models.simple.Coin as C
 class Player:
     def __init__(self,name):
         self.__name=name
         self.__victoryPoints=0
         self.__lords=[]
         self.__pocet=P.Pocket()
-<<<<<<< Updated upstream
-=======
         self.__cards={}
         for i in ['diamond', 'emerald', 'sapphire', 'onyx', 'ruby','gold']:
             self.__pocet.push(C.Coin(i, 0))
@@ -40,4 +39,3 @@ class Player:
         self.__victoryPoints+=points
     def getVictoryPoints(self):
         return self.__victoryPoints
->>>>>>> Stashed changes

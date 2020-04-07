@@ -1,100 +1,102 @@
 [
   {
-    "victoryPoints": "2",
-    "photo": "xd",
+    "victoryPoints": "1",
+    "photo": "photos\\Medium\\card1.png",
     "coasts": [
-      {
-        "name": "diamond",
-        "count": "2"
-      },
       {
         "name": "emerald",
         "count": "3"
+      },
+      {
+        "name": "ruby",
+        "count": "2"
+      },{
+        "name": "onyx",
+        "count": "2"
       }
     ],
     "earnings": [
       {
         "name": "diamond",
         "count": "1"
-      }
-    ]
-  },{
-    "victoryPoints": "5",
-    "photo": "xd",
-    "coasts": [
-      {
-        "name": "diamond",
-        "count": "7"
-      },
-      {
-        "name": "emerald",
-        "count": "5"
-      },
-      {
-        "name": "rubin",
-        "count": "3"
-      }
-    ],
-    "earnings": [
-      {
-        "name": "diamond",
-        "count": "2"
       }
     ]
   },
-   {
+  {
     "victoryPoints": "2",
-    "photo": "xd",
+    "photo": "photos\\Medium\\card2.png",
     "coasts": [
       {
-        "name": "diamond",
-        "count": "2"
+        "name": "emerald",
+        "count": "1"
       },
       {
-        "name": "emerald",
-        "count": "3"
+        "name": "ruby",
+        "count": "4"
+      },{
+        "name": "onyx",
+        "count": "2"
       }
     ],
     "earnings": [
       {
         "name": "diamond",
         "count": "1"
-      }
-    ]
-  },{
-    "victoryPoints": "5",
-    "photo": "xd",
-    "coasts": [
-      {
-        "name": "diamond",
-        "count": "7"
-      },
-      {
-        "name": "emerald",
-        "count": "5"
-      },
-      {
-        "name": "rubin",
-        "count": "3"
-      }
-    ],
-    "earnings": [
-      {
-        "name": "diamond",
-        "count": "2"
       }
     ]
   },
-   {
-    "victoryPoints": "2",
-    "photo": "xd",
+  {
+    "victoryPoints": "1",
+    "photo": "photos\\Medium\\card3.png",
     "coasts": [
       {
         "name": "diamond",
+        "count": "3"
+      },
+      {
+        "name": "sapphire",
+        "count": "2"
+      },{
+        "name": "emerald",
+        "count": "2"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "onyx",
+        "count": "1"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "2",
+    "photo": "photos\\Medium\\card4.png",
+    "coasts": [
+      {
+        "name": "onyx",
+        "count": "5"
+      }
+    ],
+    "earnings": [
+      {
+        "name": "ruby",
+        "count": "1"
+      }
+    ]
+  },
+  {
+    "victoryPoints": "1",
+    "photo": "photos\\Medium\\card5.png",
+    "coasts": [
+      {
+        "name": "emerald",
         "count": "2"
       },
       {
-        "name": "emerald",
+        "name": "sapphire",
+        "count": "3"
+      },{
+        "name": "ruby",
         "count": "3"
       }
     ],
@@ -102,29 +104,6 @@
       {
         "name": "diamond",
         "count": "1"
-      }
-    ]
-  },{
-    "victoryPoints": "5",
-    "photo": "xd",
-    "coasts": [
-      {
-        "name": "diamond",
-        "count": "7"
-      },
-      {
-        "name": "emerald",
-        "count": "5"
-      },
-      {
-        "name": "rubin",
-        "count": "3"
-      }
-    ],
-    "earnings": [
-      {
-        "name": "diamond",
-        "count": "2"
       }
     ]
   },

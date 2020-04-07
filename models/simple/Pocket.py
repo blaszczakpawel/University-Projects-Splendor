@@ -10,16 +10,6 @@ class Pocket:
     def push(self,coin):
         if isinstance(coin,C.Coin):
             self.__pocket.append(coin)
-<<<<<<< Updated upstream
-    def take(self,coin):
-        if isinstance(coin,C.Coin):
-            for i in self.__pocket:
-                if i==coin:
-                    self.__pocket.remove(i)
-                    return i
-            else:
-                return 0
-=======
     def coinsCount(self):
         counter=0
         for i in self.__pocket:
@@ -35,4 +25,3 @@ class Pocket:
         return self.__pocket
 
 
->>>>>>> Stashed changes

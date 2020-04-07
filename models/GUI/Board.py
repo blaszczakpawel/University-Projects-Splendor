@@ -1,21 +1,18 @@
 import models.GUI.Frame as Frame
 import tkinter as tk
-class Board(Frame.Frame):
+import models.GUI.AcceptionBoard as AB
+from functools import partial
+class Board():
     def __init__(self,root,board):
-        super().__init__(root)
+        self.__acceptionBoard=AB.AcceptionBoard()
+        self.__mainBoardFrame=Frame.Frame(root)
+        self.__cardBoardFrame=Frame.Frame(self.__mainBoardFrame.getFrame())
+        self.__cardBoardFrame.getFrame().grid(row=1,column=0)
+        self.__cardCoinsFrame=Frame.Frame(self.__mainBoardFrame.getFrame())
+        self.__cardCoinsFrame.getFrame().grid(row=1,column=1)
         self.__images=[]
         self.__board=board
         self.__crystalCards={}
-<<<<<<< Updated upstream
-        for i in [['low',0]]:
-            self.__crystalCards[i[0]]=[]
-            for j in range(4):
-                card=self.__board.getCrystalCard(i[1],j)
-                self.__images.append(tk.PhotoImage(file=card.getImagePath()))
-                button=tk.Button(self.getFrame(),image=self.__images[len(self.__images)-1])
-                button.grid(column=j,row=i[1])
-                self.addToWidgetes(button)
-=======
         self.__coins={}
         self.__lords=[]
         for i in range(4):
@@ -55,6 +52,5 @@ class Board(Frame.Frame):
 
 
 
->>>>>>> Stashed changes
 
 
