@@ -12,7 +12,7 @@ class GUI:
         self.__mainBoard=self.__setMainBoard(self.__window)
     def __setWindow(self):
         window=tk.Tk()
-        window.geometry("1200x700")
+        window.geometry("1400x700")
         window.title("Splendor")
         return window
     def __setMainBoard(self,root):

@@ -38,14 +38,14 @@ class Game:
                 else:
                     output=-1
             elif len(str)==2:
-                if str[0]['type']=='coin' and str[1]['type']=='coin' and str[0]['name']==str[1]['name']:
+                if str[0]['type']=='coin' and str[1]['type']=='coin' and str[0]['name']==str[1]['name'] and str[0]['name']!='gold':
                     output=moveTakeTwoCoins(self.__board.getCoins(),self.__players[self.__actualPlayer].getPocket(),str)
                 elif str[0]['type']=='coin' and str[0]['name']=='gold' and str[1]['type']=='card':
                     output=moveReservationCard(self.__board,self.__players[self.__actualPlayer],str)
                 else:
                     output=-1
             elif len(str)==3:
-                if str[0]['type']=='coin' and str[1]['type']=='coin' and str[2]['type']=='coin' and str[0]['name']!=str[1]['name'] and str[0]['name']!=str[2]['name'] and str[2]['name']!=str[1]['name']:
+                if str[0]['type']=='coin' and str[1]['type']=='coin' and str[2]['type']=='coin' and str[0]['name']!=str[1]['name'] and str[0]['name']!=str[2]['name'] and str[2]['name']!=str[1]['name']and str[0]['name']!='gold'and str[1]['name']!='gold'and str[2]['name']!='gold':
                     output=moveTakeCoin(self.__board.getCoins(),self.__players[self.__actualPlayer].getPocket(),str)
             else:
                 raise Exception("Zła ilość poleceń")
@@ -171,11 +171,3 @@ def moveTakeCard(board,player,move):
     player.addCard(cardWantToTake)
     player.addVicotorypoints(cardWantToTake.getVictoryPoints())
     return 1
-
-
-
-    
-
-
-
-
