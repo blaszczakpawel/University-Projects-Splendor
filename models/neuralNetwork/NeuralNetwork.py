@@ -1,5 +1,6 @@
 from models.neuralNetwork.HiddenLayer import HiddenLayer
 from math import fabs
+from random import randint
 class NeuralNetwork:
     def __init__(self,**kwargs):
         self.__hiddenLayers=[]
@@ -41,14 +42,20 @@ class NeuralNetwork:
             self.__hiddenLayers.append(a)
 
 
-cel=[0.1,0.2,0.95,0.67,0.997,0.56,0.7,0.45,0.001,0.68,0.1,0.2,0.95,0.67,0.997,0.56,0.7,0.45,0.001,0.68]
-pom=[(i/1000)**2 for i in range(200)]
-a=NeuralNetwork(cfg=[200,210,220,210,180,20])
+cel=[randint(0,1000)/1000 for i in range(100)]
+pom=[randint(-100,100)/10 for i in range(200)]
+a=NeuralNetwork(cfg=[200,210,220,230,220,210,180,100])
 a.randomGenerate()
+
+
 wynik=[]
-for j in range(1000000000):
+j=0
+licznik=0
+while 5>1:
+    licznik+=1
     wynik=a.run(pom)
     nauka=[]
+    """
     for i in range(len(cel)):
         if wynik[i]-cel[i]>0.6:
             nauka.append(-0.8)
@@ -72,17 +79,27 @@ for j in range(1000000000):
             nauka.append(0.001)
         else:
             nauka.append(0)
-    a.teaching(1/1000,nauka)
-    if j%1000==0:
-        print(wynik)
-        max=0
+            """
+    for i in range(len(cel)):
+        nauka.append(cel[i]-wynik[i])
+    a.teaching(0.63,nauka)
+    max = 0
     for i in range(len(wynik)):
-        if fabs(wynik[i] - cel[i])>max:
-            max=fabs(wynik[i] - cel[i])
-    if max<00.1:
+        if fabs(wynik[i] - cel[i]) > max:
+            max = fabs(wynik[i] - cel[i])
+    if j%10==0:
+        print(f"iteracja: {licznik}")
+        print(f"wynik: {wynik}")
+        print(f"max: {max}")
+        print(f"nauka: {nauka}")
+        j=0
+
+
+    if max<0.025:
         print("Skończone z max")
         break
-print("Koniec")
+    j+=1
+print("Koniec\n")
 for i in range(len(wynik)):
     print(fabs(wynik[i]-cel[i]),end=" ")
 print("\n")

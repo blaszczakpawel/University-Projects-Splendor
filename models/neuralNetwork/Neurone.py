@@ -46,7 +46,18 @@ class Neurone:
         pom2=pom*((value-self.__b))
         value=((self.__a*math.e)**(-pom2))
         """
-        return 1/(1+(math.e**(-(self.__b*value))))
+        #return 1/(1+(math.e**(-(self.__b*value))))
+        #return float(Decimal(1)/(Decimal(1)+(Decimal(math.e)**(Decimal(-1)*Decimal(self.__b)*Decimal(value)))))
+        """
+        if value>(math.pi/2):
+            return 1
+        if value<(math.pi/2):
+            return 0
+        return (math.sin(value)/2)+0.5
+        """
+
+        return (math.tanh(value)+1)/2
+        #return 1 / (1 + math.exp(-value))
     def run(self,array):
         for i in [self.__b,self.__size,self.__bias]:
             if i==None:
@@ -100,16 +111,16 @@ class Neurone:
             pom=(self.__weights[i]*self.__lastInput[i])
             if pom>0 and teachingVariable>0:
                 countOfIncrise+=1
-                arrayOfWeightsChange.append((teachingVariable*teachingRatio))
+                arrayOfWeightsChange.append((teachingVariable * teachingRatio * math.fabs(self.__weights[i])))
             elif pom>0 and teachingVariable<0:
                 countOfDecrise+=1
-                arrayOfWeightsChange.append((teachingVariable * teachingRatio))
+                arrayOfWeightsChange.append((teachingVariable * teachingRatio * math.fabs(self.__weights[i])))
             elif pom < 0 and teachingVariable > 0:
                 countOfIncrise += 1
-                arrayOfWeightsChange.append((teachingVariable * teachingRatio))
+                arrayOfWeightsChange.append((teachingVariable * teachingRatio * math.fabs(self.__weights[i])))
             elif pom < 0 and teachingVariable < 0:
                 countOfDecrise += 1
-                arrayOfWeightsChange.append((teachingVariable * teachingRatio))
+                arrayOfWeightsChange.append((teachingVariable * teachingRatio * math.fabs(self.__weights[i])))
             else:
                 arrayOfWeightsChange.append(0)
         if countOfDecrise > 4 * countOfIncrise or countOfIncrise > 4 * countOfDecrise:
@@ -117,18 +128,11 @@ class Neurone:
         else:
             for i in range(self.__size):
                 self.__weights[i] += arrayOfWeightsChange[i]
+                arrayOfWeightsChange[i]*=0.92
         return arrayOfWeightsChange
     def teachingSwitch(self):
         if self.__lastInput==None:
             self.__lastInput=[]
         self.__lastInput=None
-"""        
-a=Neurone(size=9,teaching=True)
-a.randomGenerate()
 
-for i in range(1000):
-    print(a.run([1,2,3,4,5,6,7,8,9]))
-    a.teaching(1/100,-0.1)
-
-"""
 
