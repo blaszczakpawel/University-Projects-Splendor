@@ -1,6 +1,5 @@
 class Person:
     def __init__(self,number):
-        self.__obj=None
         self.__number=number
         self.__countOfFights=0
         self.__points=0
