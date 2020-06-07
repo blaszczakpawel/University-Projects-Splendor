@@ -37,7 +37,7 @@ class Player:
     def getFrame(self):
         return self.__frame.getFrame()
     def refresh(self):
-        print(f"odświerzam gracza {self.__player.getName()}")
+        #print(f"odświerzam gracza {self.__player.getName()}")
         self.__crystals['main']['vp'].configure(text=f"VP: {self.__player.getVictoryPoints()}")
         lords = self.__player.getLords()
         counter=0

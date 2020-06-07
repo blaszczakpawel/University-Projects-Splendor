@@ -1,51 +1,51 @@
 [
   {
-    "victoryPoints": "4",
+    "victoryPoints": 4,
     "photo": "photos\\High\\card1.png",
     "coasts": [
       {
         "name": "sapphire",
-        "count": "3"
+        "count": 3
       },
       {
         "name": "emerald",
-        "count": "6"
+        "count": 6
       },{
         "name": "ruby",
-        "count": "3"
+        "count": 3
       }
     ],
     "earnings": [
       {
         "name": "ruby",
-        "count": "1"
+        "count": 1
       }
     ]
   },
   {
-    "victoryPoints": "3",
+    "victoryPoints": 3,
     "photo": "photos\\High\\card2.png",
     "coasts": [
       {
         "name": "diamond",
-        "count": "5"
+        "count": 5
       },
       {
         "name": "sapphire",
-        "count": "3"
+        "count": 3
       },
       {
         "name": "ruby",
-        "count": "3"
+        "count": 3
       },{
         "name": "onyx",
-        "count": "3"
+        "count": 3
       }
     ],
     "earnings": [
       {
-        "name": "onyx",
-        "count": "1"
+        "name": "emerald",
+        "count": 1
       }
     ]
   },

@@ -5,15 +5,15 @@ class CrystalCard:
     __back=None
     def __init__(self,victoryPoints,coasts,earnings,photo):
         self.__imagePath=photo
-        self.__victoryPoints=victoryPoints
+        self.__victoryPoints=int(victoryPoints)
         self.__coasts= Pocket.Pocket()
         self.__earnings= Pocket.Pocket()
         self.__image=None
         self.__smalImage=None
         for i in coasts:
-            self.__coasts.push(Coin.Coin(i['name'], i['count']))
+            self.__coasts.push(Coin.Coin(i['name'], int(i['count'])))
         for i in earnings:
-            self.__earnings.push(Coin.Coin(i['name'], i['count']))
+            self.__earnings.push(Coin.Coin(i['name'], int(i['count'])))
     def __str__(self):
         return f"cardVP: {self.__victoryPoints} Earnings: {self.__earnings.__str__()} Coasts: {self.__coasts.__str__()}"
     def getBack(self):
@@ -36,6 +36,14 @@ class CrystalCard:
         return self.__earnings.getAllCoins()[0].getType()
     def getVictoryPoints(self):
         return self.__victoryPoints
+    def getStatsForConector(self):
+        output=[]
+        output.append(self.getVictoryPoints())
+        for i in ['ruby','emerald','diamond','onyx','sapphire']:
+            output.append(self.__coasts.takeCoinByType(i).getCount())
+        for i in ['ruby','emerald','diamond','onyx','sapphire']:
+            output.append(self.__earnings.takeCoinByType(i).getCount())
+        return output
 
 
 

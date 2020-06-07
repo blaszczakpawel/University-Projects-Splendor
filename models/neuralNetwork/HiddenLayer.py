@@ -1,6 +1,4 @@
-from models.neuralNetwork.Neurone import Neurone
-from random import randint
-from math import fabs
+import models.neuralNetwork.Neurone as Neurone
 class HiddenLayer:
     def __init__(self,**kwargs):
         self.__sizeOfInput=None
@@ -19,7 +17,7 @@ class HiddenLayer:
         if self.__sizeOfInput==None or self.__countOfNeurons==None or len(self.__arrayOfNeurons)!=0:
             raise Exception("Hidden Layer is actualy generate")
         for i in range(self.__countOfNeurons):
-            newNeurone=Neurone(size=self.__sizeOfInput,teaching=True)
+            newNeurone=Neurone.Neurone(size=self.__sizeOfInput,teaching=True)
             newNeurone.randomGenerate()
             self.__arrayOfNeurons.append(newNeurone)
     def __str__(self):
@@ -29,8 +27,8 @@ class HiddenLayer:
         output+="]"
         return output
     def getNeuronByIndex(self,index):
-        if index<0  or index>=self.__countOfNeurons:
-            raise Exception(f"Index out of neurons range {index}")
+        if index<0  or index>=len(self.__arrayOfNeurons):
+            raise Exception(f"Index out of neurons range {index} from {len(self.__arrayOfNeurons)}")
         else:
             return self.__arrayOfNeurons[index]
     def run(self,arrayOfInput):
@@ -57,9 +55,9 @@ class HiddenLayer:
             raise Exception("You cannot create")
         self.__countOfNeurons=obj['countOfNeurons']
         self.__sizeOfInput=obj['sizeOfInput']
-        self.__countOfNeurons=[]
+        self.__arrayOfNeurons=[]
         for i in obj['arrayOfNeurons']:
-            a=Neurone()
+            a=Neurone.Neurone()
             a.transformFromObject(i)
             self.__arrayOfNeurons.append(a)
     def teaching(self, teachingRatio, teachingVariablesArray):
@@ -72,6 +70,8 @@ class HiddenLayer:
         return arrayOfWeights
     def getSizeOfInput(self):
         return self.__sizeOfInput
+    def getSizeOfNeurons(self):
+        return self.__countOfNeurons
 
 
 

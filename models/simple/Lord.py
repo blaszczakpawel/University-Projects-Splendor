@@ -20,3 +20,12 @@ class Lord:
         return self.__coasts
     def getvictoryPoints(self):
         return self.__vicotryPoints
+    def getLordStatsForConector(self):
+        output=[]
+        output.append(self.getvictoryPoints())
+        for i in ['ruby','emerald','diamond','onyx','sapphire']:
+            if i in self.__coasts:
+                output.append(self.__coasts[i])
+            else:
+                output.append(0)
+        return output

@@ -14,6 +14,8 @@ class Player:
         return self.__pocet
     def getName(self):
         return self.__name
+    def getCoinCountByType(self,type):
+        return self.__pocet.takeCoinByType(type).getCount()
     def getCardsCounts(self):
         count=0
         for i in ['diamond', 'emerald', 'sapphire', 'onyx', 'ruby', 'gold']:

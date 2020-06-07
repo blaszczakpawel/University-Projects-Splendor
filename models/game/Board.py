@@ -3,16 +3,19 @@ import models.simple.LordsDeck as LD
 import tkinter as tk
 import models.simple.Pocket as P
 import models.simple.Coin as C
-
 import os
+
+GOLD_COINS_START_COUNT=5
+DESOR_COINS_START_COUNT=7
+
 class Board:
     def __init__(self):
         self.__decks={}
         self.__cards = [[]]
         self.__coins=P.Pocket()
-        self.__coins.push(C.Coin('gold', 5))
+        self.__coins.push(C.Coin('gold', GOLD_COINS_START_COUNT))
         for i in ['diamond','emerald','sapphire','onyx','ruby']:
-            self.__coins.push(C.Coin(i,7))
+            self.__coins.push(C.Coin(i,DESOR_COINS_START_COUNT))
         self.__lords=LD.LordsDeck("cards\LordsList.json")
         for i in [['low','cards\LowCrystalList.json'],['medium','cards\MediumCrystalList.json'],['high','cards\HighCrystalList.json']]:
             self.__decks[i[0]]=CCD.CrystalCardDeck(i[1])

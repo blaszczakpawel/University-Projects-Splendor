@@ -1,6 +1,6 @@
 import models.GUI.Frame as F
 import tkinter as tk
-from functools import partial
+import functools
 import models.game.Game as G
 class AcceptionBoard:
     __instance=None
@@ -19,7 +19,7 @@ class AcceptionBoard:
             label.grid(column=1,row=1)
             self.__board.addToWidgetes(label)
             for i in range(3):
-                self.__goldenCards.append(tk.Button(self.__board.getFrame(),command=partial(self.buyGoldCard,i)))
+                self.__goldenCards.append(tk.Button(self.__board.getFrame(),command=functools.partial(self.buyGoldCard,i)))
             for i in [["Wyczyść ruch",self.clear,1,2],["Wykup kartę",self.printGoldenCards,1,3],["pass",self.pas,1,4],["Akceptuj ruch",self.acceptMove,1,5]]:
                 button=tk.Button(self.__board.getFrame(),text=i[0],command=i[1])
                 button.grid(column=i[2], row=i[3])
@@ -63,5 +63,5 @@ class AcceptionBoard:
     def move(self,str,cfg):
         AcceptionBoard.__instance.move(str,cfg)
     def refresh(self):
-        print("Odświerzam Acception Board")
+        #print("Odświerzam Acception Board")
         self.__instance.refresh()

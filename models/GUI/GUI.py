@@ -5,6 +5,17 @@ import models.GUI.Board as GUIBoard
 import models.game.Board as GameBoard
 import models.GUI.AcceptionBoard as AB
 import models.GUI.Player as P
+
+SCREAN_HEIGH=600
+SCREAN_WEIGHT=1200
+
+#(column,row,padx,pady)
+WIN_BOARD=(2,0,0,0)
+ACCEPTION_BOARD_PROPERTIES=(3,1,100,0)
+BOARD_PROPERTIES=(2,1,0,0)
+PLAYER_ONE_PROPERTIES=(1,2,70,0)
+PLAYER_TWO_PROPERTIES=(1,1,70,40)
+
 class GUI:
     def __init__(self,game):
         self.__game=game
@@ -12,7 +23,7 @@ class GUI:
         self.__mainBoard=self.__setMainBoard(self.__window)
     def __setWindow(self):
         window=tk.Tk()
-        window.geometry("1400x700")
+        window.geometry(f"{str(SCREAN_WEIGHT)}x{str(SCREAN_HEIGH)}")
         window.title("Splendor")
         return window
     def __setMainBoard(self,root):
@@ -20,7 +31,7 @@ class GUI:
         #['playerOne',1,4,'player']['playerTwo',1,2,'player']['main',1,1,'main']
         self.__playersFrame = tk.Frame(root)
         self.__playersFrame.grid(column=1, row=1)
-        for i in [['accept','accept',3,1,100,0],['board','board',2,1,0,0],['player','one',1,2,70,0],['player','two',1,1,70,40]]:
+        for i in [['accept','accept',*ACCEPTION_BOARD_PROPERTIES],['board','board',*BOARD_PROPERTIES],['player','one',*PLAYER_ONE_PROPERTIES],['player','two',*PLAYER_TWO_PROPERTIES]]:
             if i[0]=='board':
                 self.__frames[i[1]]=GUIBoard.Board(root,self.__game.getBoard())
             elif i[0]=='accept':
@@ -31,5 +42,8 @@ class GUI:
     def refresh(self):
         for i in self.__frames:
             self.__frames[i].refresh()
+    def win(self,player):
+        pom=tk.Label(self.__window,text=f"Wygrał gracz {player}")
+        pom.grid(column=WIN_BOARD[0], row=WIN_BOARD[1], padx=WIN_BOARD[2], pady=WIN_BOARD[3])
 
 
