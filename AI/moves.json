@@ -1,0 +1,56 @@
+[
+
+  [{"type": "lord","number": 0}],
+  [{"type": "lord","number": 1}],
+  [{"type": "lord","number": 2}],
+  [{"type": "lord","number": 3}],
+
+  [{"type": "card","x":1 ,"y": 1}],
+  [{"type": "card","x":1 ,"y": 2}],
+  [{"type": "card","x":1 ,"y": 3}],
+  [{"type": "card","x":2 ,"y": 1}],
+  [{"type": "card","x":2 ,"y": 2}],
+  [{"type": "card","x":2 ,"y": 3}],
+  [{"type": "card","x":3 ,"y": 1}],
+  [{"type": "card","x":3,"y": 2}],
+  [{"type": "card","x":3 ,"y": 3}],
+  [{"type": "card","x":4 ,"y": 1}],
+  [{"type": "card","x":4 ,"y": 2}],
+  [{"type": "card","x":4 ,"y": 3}],
+
+  [{"type": "coin","name": "gold"},{"type": "card","x":1 ,"y": 1}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":1 ,"y": 2}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":1 ,"y": 3}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":2 ,"y": 1}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":2 ,"y": 2}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":2 ,"y": 3}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":3 ,"y": 1}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":3,"y": 2}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":3 ,"y": 3}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":4 ,"y": 1}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":4 ,"y": 2}],
+  [{"type": "coin","name": "gold"},{"type": "card","x":4 ,"y": 3}],
+
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "ruby"}],
+  [{"type": "coin","name": "emerald"},{"type": "coin","name": "emerald"}],
+  [{"type": "coin","name": "diamond"},{"type": "coin","name": "diamond"}],
+  [{"type": "coin","name": "onyx"},{"type": "coin","name": "onyx"}],
+  [{"type": "coin","name": "sapphire"},{"type": "coin","name": "sapphire"}],
+
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "emerald"},{"type": "coin","name": "diamond"}],
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "emerald"},{"type": "coin","name": "onyx"}],
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "emerald"},{"type": "coin","name": "sapphire"}],
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "diamond"},{"type": "coin","name": "onyx"}],
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "diamond"},{"type": "coin","name": "sapphire"}],
+  [{"type": "coin","name": "ruby"},{"type": "coin","name": "onyx"},{"type": "coin","name": "sapphire"}],
+  [{"type": "coin","name": "emerald"},{"type": "coin","name": "diamond"},{"type": "coin","name": "onyx"}],
+  [{"type": "coin","name": "emerald"},{"type": "coin","name": "diamond"},{"type": "coin","name": "sapphire"}],
+  [{"type": "coin","name": "emerald"},{"type": "coin","name": "onyx"},{"type": "coin","name": "sapphire"}],
+  [{"type": "coin","name": "diamond"},{"type": "coin","name": "onyx"},{"type": "coin","name": "sapphire"}],
+
+  [{"type": "byGoldenCard","index":0}],
+  [{"type": "byGoldenCard","index":1}],
+  [{"type": "byGoldenCard","index":2}],
+
+  [{"type":"pass"}]
+]
