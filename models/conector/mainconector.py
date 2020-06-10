@@ -1,5 +1,5 @@
 import json
-import models.GeneticAlgoritm.Person as Person
+import models.simple.person as person
 import models.neuralNetwork.neuralnetwork as Network
 
 CFG_FOR_NEURAL_NETWORK = (251, 450, 450, 450, 450, 450, 450, 450, 47)
