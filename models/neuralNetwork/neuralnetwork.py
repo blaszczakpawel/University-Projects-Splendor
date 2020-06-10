@@ -31,7 +31,7 @@ class NeuralNetwork:
         if len(self.__hidden_layers) != 0:
             raise Exception("Błąd w luj")
         for hidden_l in object['hiddenLayers']:
-            new_hidden_layer = hidden_l.HiddenLayer()
+            new_hidden_layer = hidden_layer.HiddenLayer()
             new_hidden_layer.transform_from_object(hidden_l)
             self.__hidden_layers.append(new_hidden_layer)
     def get_hidden_layer(self, index):

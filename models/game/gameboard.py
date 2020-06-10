@@ -1,7 +1,7 @@
-import models.simple.CrystalCardsDeck as card_deck
-import models.simple.LordsDeck as lord_deck
-import models.simple.Pocket as pocket
-import models.simple.Coin as coin
+import models.simple.crystalcarddeck as card_deck
+import models.simple.lordsdeck as lord_deck
+import models.simple.pocket as pocket
+import models.simple.coin as coin
 
 GOLD_COINS_START_COUNT = 5
 DESOR_COINS_START_COUNT = 7
@@ -29,7 +29,7 @@ class GameBoard:
     def get_card(self, x_position, y_position):
         return self.__cards[x_position][y_position]
     def get_coin_by_type(self, type):
-        return self.__coins.takeCoinByType(type)
+        return self.__coins.take_coin_by_type(type)
     def get_coins(self):
         return self.__coins
     def remove_card(self, card):

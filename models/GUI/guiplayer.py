@@ -30,12 +30,12 @@ class GuiPlayer:
             self.__crystals[i[0]]['lord'] = tk.Label(self.__crystals[i[0]]['frame'].get_frame())
             self.__crystals[i[0]]['lord'].grid(column=0, row=i[1])
             #coinsy
-            coin = self.__player.get_pocket().takeCoinByType(i[0])
+            coin = self.__player.get_pocket().take_coin_by_type(i[0])
             self.__crystals[i[0]]['coinCountLabel'] = tk.Label(
-                self.__crystals[i[0]]['frame'].get_frame(), text=coin.getCount())
+                self.__crystals[i[0]]['frame'].get_frame(), text=coin.get_count())
             self.__crystals[i[0]]['coinCountLabel'].grid(column=0, row=i[1]+1)
             self.__crystals[i[0]]['coinPhotoLabel'] = tk.Label(
-                self.__crystals[i[0]]['frame'].get_frame(), image=coin.getImage())
+                self.__crystals[i[0]]['frame'].get_frame(), image=coin.get_image())
             self.__crystals[i[0]]['coinPhotoLabel'].grid(column=0, row=i[1]+2)
             #cards
             cards = self.__player.get_cards_by_type(i[0])
@@ -44,7 +44,7 @@ class GuiPlayer:
             self.__crystals[i[0]]['cardsCountLabel'].grid(column=0, row=i[1]+3)
 
             self.__crystals[i[0]]['cardsPhotoLabel'] = tk.Label(self.__crystals[i[0]]['frame'].get_frame(),
-                                                                image=self.__board.get_card(1, 1).getBack())
+                                                                image=self.__board.get_card(1, 1).get_back())
             self.__crystals[i[0]]['cardsPhotoLabel'].grid(column=0, row=i[1]+4)
 
     def get_frame(self):
@@ -56,16 +56,16 @@ class GuiPlayer:
         counter = 0
         for crystal in CRYSTAL_LIST:
             self.__crystals[crystal]['coinCountLabel'].configure(
-                text=self.__player.get_pocket().takeCoinByType(crystal).getCount())
+                text=self.__player.get_pocket().take_coin_by_type(crystal).get_count())
             if len(self.__player.get_cards_by_type(crystal)) > 0:
                 self.__crystals[crystal]['cardsCountLabel'].configure(
                     text=len(self.__player.get_cards_by_type(crystal)))
                 self.__crystals[crystal]['cardsPhotoLabel'].configure(
                     image=self.__player.get_cards_by_type(crystal)[
-                        len(self.__player.get_cards_by_type(crystal)) - 1].getSmallImage())
+                        len(self.__player.get_cards_by_type(crystal)) - 1].get_small_image())
             else:
                 self.__crystals[crystal]['cardsPhotoLabel'].configure(
-                    image=self.__board.get_card(1, 1).getBack())
+                    image=self.__board.get_card(1, 1).get_back())
             if counter < len(lords):
-                self.__crystals[crystal]['lord'].configure(image=lords[counter].getSmallImage())
+                self.__crystals[crystal]['lord'].configure(image=lords[counter].get_small_image())
                 counter += 1

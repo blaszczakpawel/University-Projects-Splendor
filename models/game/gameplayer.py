@@ -1,5 +1,5 @@
-import models.simple.Pocket as pocket
-import models.simple.Coin as coin
+import models.simple.pocket as pocket
+import models.simple.coin as coin
 class Player:
     def __init__(self, name):
         self.__name = name
@@ -16,7 +16,7 @@ class Player:
     def get_name(self):
         return self.__name
     def get_coin_count_by_type(self, coin_type):
-        return self.__pocket.takeCoinByType(coin_type).getCount()
+        return self.__pocket.take_coin_by_type(coin_type).get_count()
     def get_card_count(self):
         count = 0
         for card_type in ['diamond', 'emerald', 'sapphire',
@@ -34,7 +34,7 @@ class Player:
     def get_cards_by_type(self, card_type):
         return self.__cards[card_type]
     def add_card(self, card):
-        self.__cards[card.getType()].append(card)
+        self.__cards[card.get_type()].append(card)
     def add_card_to_reservation(self, card):
         self.__cards['gold'].append(card)
     def add_lord(self, lord):

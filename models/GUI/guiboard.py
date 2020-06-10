@@ -35,7 +35,7 @@ class GuiBoard:
         for i in range(4):
             lord = self.__main_board.get_card(0, i)
             self.__lords_list.append(tk.Button(self.__card_board_frame.get_frame(),
-                                               image=lord.getImage(),
+                                               image=lord.get_image(),
                                                command=functools.partial(self.__acception_board.execute_move,
                                                                          f"Lord z pozycji {i} ",
                                                                          {'type': "lord", "number":i})))
@@ -48,7 +48,7 @@ class GuiBoard:
             for j in range(4):
                 card = self.__main_board.get_card(i[1], j)
                 self.__crystal_cards[i[0]].append(tk.Button(self.__card_board_frame.get_frame(),
-                                                            image=card.getImage(),
+                                                            image=card.get_image(),
                                                             command=functools.partial(self.__acception_board.execute_move,
                                                                                       f"Karta z pozycji (x,y)=({j + 1} , {i[1]})",
                                                                                       {'type': "card", "x": j + 1, 'y':i[1]})))
@@ -57,9 +57,9 @@ class GuiBoard:
                 self.__card_board_frame.add_to_widgetes(self.__crystal_cards[i[0]][j])
         for i in LIST_OF_COINS:
             self.__coins_list[i[1]] = tk.Label(self.__card_coins_frame.get_frame(),
-                                               text=str(self.__main_board.get_coin_by_type(i[1]).getCount()))
+                                               text=str(self.__main_board.get_coin_by_type(i[1]).get_count()))
             button = tk.Button(self.__card_coins_frame.get_frame(),
-                               image=self.__main_board.get_coin_by_type(i[1]).getImage(),
+                               image=self.__main_board.get_coin_by_type(i[1]).get_image(),
                                command=functools.partial(self.__acception_board.execute_move,
                                                          f"Moneta o nazwie {i[1]}",
                                                          {'type': "coin", "name":i[1]}))
@@ -74,14 +74,14 @@ class GuiBoard:
         self.__acception_board.refresh()
         for i in range(4):
             lord = self.__main_board.get_card(0, i)
-            self.__lords_list[i].configure(image=lord.getImage())
+            self.__lords_list[i].configure(image=lord.get_image())
         for i in LIST_OF_CRYSTALS:
             self.__coins_list[i].configure(
-                text=str(self.__main_board.get_coin_by_type(i).getCount()))
+                text=str(self.__main_board.get_coin_by_type(i).get_count()))
         for i in LIST_OF_CARDS:
             for j in range(4):
                 card = self.__main_board.get_card(i[1], j)
-                self.__crystal_cards[i[0]][j].configure(image=card.getImage())
+                self.__crystal_cards[i[0]][j].configure(image=card.get_image())
 
 
 

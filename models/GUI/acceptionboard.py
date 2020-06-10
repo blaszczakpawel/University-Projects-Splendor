@@ -35,7 +35,7 @@ class AcceptionBoard:
     def print_golden_cards(self):
         counter = 0
         for i in self.__game.get_player('actual').get_cards_by_type('gold'):
-            self.__golden_cards[counter].configure(image=i.getSmallImage())
+            self.__golden_cards[counter].configure(image=i.get_small_image())
             self.__golden_cards[counter].grid(row=0, column=counter)
             counter += 1
 
