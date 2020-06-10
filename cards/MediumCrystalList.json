@@ -1,7 +1,7 @@
 [
   {
     "victoryPoints": "1",
-    "photo": "photos\\Medium\\card1.png",
+    "photo": "photos/Medium/card1.png",
     "coasts": [
       {
         "name": "emerald",
@@ -24,7 +24,7 @@
   },
   {
     "victoryPoints": "2",
-    "photo": "photos\\Medium\\card2.png",
+    "photo": "photos/Medium/card2.png",
     "coasts": [
       {
         "name": "emerald",
@@ -47,7 +47,7 @@
   },
   {
     "victoryPoints": "1",
-    "photo": "photos\\Medium\\card3.png",
+    "photo": "photos/Medium/card3.png",
     "coasts": [
       {
         "name": "diamond",
@@ -70,7 +70,7 @@
   },
   {
     "victoryPoints": "2",
-    "photo": "photos\\Medium\\card4.png",
+    "photo": "photos/Medium/card4.png",
     "coasts": [
       {
         "name": "onyx",
@@ -86,7 +86,7 @@
   },
   {
     "victoryPoints": "1",
-    "photo": "photos\\Medium\\card5.png",
+    "photo": "photos/Medium/card5.png",
     "coasts": [
       {
         "name": "emerald",
@@ -109,7 +109,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Medium\\card6.png",
+    "photo": "photos/Medium/card6.png",
     "coasts": [
       {
         "name": "onyx",
@@ -125,7 +125,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card7.png",
+    "photo": "photos/Medium/card7.png,",
     "coasts": [
       {
         "name": "onyx",
@@ -149,7 +149,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card8.png",
+    "photo": "photos/Medium/card8.png",
     "coasts": [
       {
         "name": "onyx",
@@ -173,7 +173,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card9.png",
+    "photo": "photos/Medium/card9.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -197,7 +197,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Medium\\card10.png",
+    "photo": "photos/Medium/card10.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -213,7 +213,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card11.png",
+    "photo": "photos/Medium/card11.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -229,7 +229,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card12.png",
+    "photo": "photos/Medium/card12.png",
     "coasts": [
       {
         "name": "ruby",
@@ -245,7 +245,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Medium\\card13.png",
+    "photo": "photos/Medium/card13.png",
     "coasts": [
       {
         "name": "emerald",
@@ -261,7 +261,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card14.png",
+    "photo": "photos/Medium/card14.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -281,7 +281,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Medium\\card15.png",
+    "photo": "photos/Medium/card15.png",
     "coasts": [
       {
         "name": "ruby",
@@ -297,7 +297,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Medium\\card16.png",
+    "photo": "photos/Medium/card16.png",
     "coasts": [
       {
         "name": "diamond",
@@ -313,7 +313,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card17.png",
+    "photo": "photos/Medium/card17.png",
     "coasts": [
       {
         "name": "emerald",
@@ -337,7 +337,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card18.png",
+    "photo": "photos/Medium/card18.png",
     "coasts": [
       {
         "name": "onyx",
@@ -357,7 +357,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card19.png",
+    "photo": "photos/Medium/card19.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -381,7 +381,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card20.png",
+    "photo": "photos/Medium/card20.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -401,7 +401,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card21.png",
+    "photo": "photos/Medium/card21.png",
     "coasts": [
       {
         "name": "onyx",
@@ -425,7 +425,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card22.png",
+    "photo": "photos/Medium/card22.png",
     "coasts": [
       {
         "name": "emerald",
@@ -441,7 +441,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card23.png",
+    "photo": "photos/Medium/card23.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -465,7 +465,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card24.png",
+    "photo": "photos/Medium/card24.png",
     "coasts": [
       {
         "name": "onyx",
@@ -489,7 +489,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card25.png",
+    "photo": "photos/Medium/card25.png",
     "coasts": [
       {
         "name": "onyx",
@@ -509,7 +509,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card26.png",
+    "photo": "photos/Medium/card26.png",
     "coasts": [
       {
         "name": "diamond",
@@ -525,7 +525,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card27.png",
+    "photo": "photos/Medium/card27.png",
     "coasts": [
       {
         "name": "emerald",
@@ -545,7 +545,7 @@
   },
   {
     "victoryPoints": 1,
-    "photo": "photos\\Medium\\card28.png",
+    "photo": "photos/Medium/card28.png",
     "coasts": [
       {
         "name": "onyx",
@@ -569,7 +569,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card29.png",
+    "photo": "photos/Medium/card29.png",
     "coasts": [
       {
         "name": "onyx",
@@ -593,7 +593,7 @@
   },
   {
     "victoryPoints": 2,
-    "photo": "photos\\Medium\\card30.png",
+    "photo": "photos/Medium/card30.png",
     "coasts": [
       {
         "name": "onyx",

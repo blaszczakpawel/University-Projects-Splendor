@@ -3,10 +3,7 @@ class Pocket:
     def __init__(self):
         self.__pocket=[]
     def __str__(self):
-        output=''
-        for i in self.__pocket:
-            output+=i.__str__()+'\n'
-        return output
+        return '\n'.join(str(x) for x in self.__pocket)
     def push(self,coin):
         if isinstance(coin,C.Coin):
             self.__pocket.append(coin)

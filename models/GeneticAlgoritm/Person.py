@@ -1,10 +1,13 @@
 class Person:
-    def __init__(self,number):
+    def __init__(self,number,path):
         self.__number=number
         self.__countOfFights=0
         self.__points=0
+        self.__path=path+"_"+str(self.__number)
     def __str__(self):
         return f"Number: {self.__number} Fights: {self.__countOfFights} Points: {self.__points}"
+    def getNumber(self):
+        return self.__number
     def getCountOfFights(self):
         return self.__countOfFights
     def addFight(self):
@@ -13,8 +16,13 @@ class Person:
         self.__points+=points
     def getPoints(self):
         return self.__points
+    def setupFights(self):
+        self.__countOfFights=0
+    def setupPoints(self):
+        self.__points=0
     def mutation(self):
         pass
-    def copulate(self,other,number):
-        pom = Person(number)
-        return pom
+    def getToFight(self):
+        pass
+    def getPath(self):
+        return self.__path

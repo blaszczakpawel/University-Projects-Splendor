@@ -1,12 +1,12 @@
 import tkinter as tk
-class Frame:
+class MyFrame:
     def __init__(self,root):
         self.__frame=tk.Frame(root)
         self.__widgets=[]
-    def getFrame(self):
+    def get_frame(self):
         return self.__frame
-    def addToWidgetes(self,new):
+    def add_to_widgetes(self, new):
         if new not in self.__widgets:
             self.__widgets.append(new)
     def update(self):
-        raise NotImplemented()
+        raise NotImplementedError

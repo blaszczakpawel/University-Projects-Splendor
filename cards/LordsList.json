@@ -1,7 +1,7 @@
 [
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord1.png",
+    "photo": "photos/Lords/lord1.png",
     "coasts": [
       {
         "name": "onyx",
@@ -15,7 +15,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord2.png",
+    "photo": "photos/Lords/lord2.png",
     "coasts": [
       {
         "name": "ruby",
@@ -33,7 +33,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord3.png",
+    "photo": "photos/Lords/lord3.png",
     "coasts": [
       {
         "name": "ruby",
@@ -47,7 +47,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord4.png",
+    "photo": "photos/Lords/lord4.png",
     "coasts": [
       {
         "name": "ruby",
@@ -65,7 +65,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord5.png",
+    "photo": "photos/Lords/lord5.png",
     "coasts": [
       {
         "name": "ruby",
@@ -83,7 +83,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord6.png",
+    "photo": "photos/Lords/lord6.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -97,7 +97,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord7.png",
+    "photo": "photos/Lords/lord7.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -115,7 +115,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord8.png",
+    "photo": "photos/Lords/lord8.png",
     "coasts": [
       {
         "name": "ruby",
@@ -129,7 +129,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord9.png",
+    "photo": "photos/Lords/lord9.png",
     "coasts": [
       {
         "name": "sapphire",
@@ -143,7 +143,7 @@
   },
   {
     "victoryPoints": 3,
-    "photo": "photos\\Lords\\lord10.png",
+    "photo": "photos/Lords/lord10.png",
     "coasts": [
       {
         "name": "sapphire",

@@ -34,11 +34,11 @@ class CrystalCard:
         return self.__coasts
     def getType(self):
         return self.__earnings.getAllCoins()[0].getType()
-    def getVictoryPoints(self):
+    def get_victory_points(self):
         return self.__victoryPoints
     def getStatsForConector(self):
         output=[]
-        output.append(self.getVictoryPoints())
+        output.append(self.get_victory_points())
         for i in ['ruby','emerald','diamond','onyx','sapphire']:
             output.append(self.__coasts.takeCoinByType(i).getCount())
         for i in ['ruby','emerald','diamond','onyx','sapphire']:

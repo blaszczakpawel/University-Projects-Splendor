@@ -1,5 +1,9 @@
-import models.game.Game as G
+import models.game.game as G
+import tkinter as tk
+
+
 
 
 a= G.Game()
-a.setup()
+a.run()
+tk.mainloop()
