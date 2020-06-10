@@ -1,4 +1,4 @@
-import json
+"""import json
 
 data = {}
 data['people'] = []
@@ -18,10 +18,11 @@ data['people'].append({
     'from': 'Alabama'
 })
 
-with open('data.json', mode='r+') as file:
-    dataFromFile=None
-    json.dump(dataFromFile,file)
-    for i in data:
-        dataFromFile.append(i)
-    file.seek(0)
-    json.dump(dataFromFile,file)
+with open('AI/dataaaaaa.json', 'w') as outfile:
+    json.dump(data, outfile)
+    outfile.close()"""
+
+
+pom=[1,2,3]
+pom2=[4,5,6]
+print(pom+pom2)

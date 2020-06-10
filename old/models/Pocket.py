@@ -1,4 +1,4 @@
-import models.simple.Coin as C
+import models.simple.coin as C
 class Pocket:
     def __init__(self):
         self.__pocket=[]

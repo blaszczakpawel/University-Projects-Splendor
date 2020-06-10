@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as xml
-import models.simple.CrystalCard as CC
+import models.simple.crystalcard as CC
 import random as ran
 
 class CrystalCardDeck:
