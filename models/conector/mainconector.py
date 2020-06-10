@@ -1,11 +1,12 @@
 import json
-import models.GeneticAlgoritm.Person as Person
+
 import models.neuralNetwork.neuralnetwork as Network
+import models.simple.person as person
 
 CFG_FOR_NEURAL_NETWORK = (251, 450, 450, 450, 450, 450, 450, 450, 47)
 TEACHING_VARIABLE = 0.72
 
-class MainConecotr(Person.Person):
+class MainConecotr(person.Person):
     def __init__(self, number, path, **kwargs):
         super().__init__(number, path)
         self.__moves = None
@@ -23,7 +24,7 @@ class MainConecotr(Person.Person):
     def save_object(self):
         if self.__object is None or self.__stats is None:
             raise Exception
-        with open(self.getPath()+".json", 'w') as outfile:
+        with open(self.get_path() + ".json", 'w') as outfile:
             data = {'stats':self.__stats, 'neuralNetwork':self.__object.transform_to_object()}
             json.dump(data, outfile)
             outfile.close()
@@ -34,7 +35,7 @@ class MainConecotr(Person.Person):
     def load_object(self):
         if self.__stats is not None or self.__object is not None:
             raise Exception
-        with open(self.getPath()+".json", 'r') as json_file:
+        with open(self.get_path() + ".json", 'r') as json_file:
             data = json.load(json_file)
             self.__object = Network.NeuralNetwork()
             self.__object.transform_from_object(data['neuralNetwork'])
