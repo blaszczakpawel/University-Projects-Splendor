@@ -4,8 +4,6 @@ class Person:
         self.__count_of_fights = 0
         self.__points = 0
         self.__path = path+"_"+str(self.__number)
-    def __str__(self):
-        return f"Number: {self.__number} Fights: {self.__count_of_fights} Points: {self.__points}"
     def get_number(self):
         return self.__number
     def get_count_of_fights(self):

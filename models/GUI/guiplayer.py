@@ -1,12 +1,13 @@
 import tkinter as tk
-import models.GUI.frame as my_frame
 
-CRYSTAL_LIST_OPTIONS = [['diamond', 1, 5],
-                        ['emerald', 1, 4],
-                        ['sapphire', 1, 3],
-                        ['ruby', 1, 2],
-                        ['onyx', 1, 1],
-                        ['gold', 1, 6]]
+from models.GUI import frame as my_frame
+
+CRYSTAL_LIST_OPTIONS = [('diamond', 1, 5),
+                        ('emerald', 1, 4),
+                        ('sapphire', 1, 3),
+                        ('ruby', 1, 2),
+                        ('onyx', 1, 1),
+                        ('gold', 1, 6)]
 CRYSTAL_LIST = ['diamond', 'emerald', 'sapphire',
                 'ruby', 'onyx', 'gold']
 

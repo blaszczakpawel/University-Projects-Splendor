@@ -1,10 +1,11 @@
 import json
 
-import models.game.gameboard as board
-import models.game.gameplayer as player
-import models.GUI.graphicaluserinterface as gui
-import models.conector.mainconector as conector
-import models.neuralNetwork.neuralnetwork as network
+from models.game import gameboard as board
+from models.game import gameplayer as player
+from models.GUI import graphicaluserinterface as gui
+from models.conector import mainconector as connector
+from models.neuralNetwork import neuralnetwork as network
+
 class Game:
     def __init__(self):
         self.__players = {}
@@ -13,7 +14,7 @@ class Game:
         self.__round = 0
         self.__is_gui = True
         self.__gui = None
-        self.__ai = conector.MainConecotr(0, 'AI/Brutus')
+        self.__ai = connector.MainConnecotr(0, 'AI/Brutus')
         self.__ai.load_object()
         for i in ['one', 'two']:
             self.__players[i] = player.Player(i)
@@ -24,7 +25,7 @@ class Game:
             data = json.load(json_file)
             pom = network.NeuralNetwork()
             pom.transform_from_object(data['neuralNetwork'])
-            self.__ai = conector.MainConecotr(8, 'AI/Brutus', Obj=pom)
+            self.__ai = connector.MainConnecotr(8, 'AI/Brutus', Obj=pom)
             json_file.close()
 
     def get_player(self, name_of_player):

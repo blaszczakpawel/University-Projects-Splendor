@@ -18,8 +18,6 @@ class CrystalCard:
             self.__coasts.push(coin.Coin(i['name'], int(i['count'])))
         for i in earnings:
             self.__earnings.push(coin.Coin(i['name'], int(i['count'])))
-    def __str__(self):
-        return f"cardVP: {self.__victoryPoints} Earnings: {self.__earnings.__str__()} Coasts: {self.__coasts.__str__()}"
     def get_back(self):
         if CrystalCard.__back is None:
             CrystalCard.__back = tk.PhotoImage(file="photos\High\cardsBack.png").subsample(2)

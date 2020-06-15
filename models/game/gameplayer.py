@@ -1,5 +1,6 @@
-import models.simple.pocket as pocket
-import models.simple.coin as coin
+from models.simple import pocket
+from models.simple import coin
+
 class Player:
     def __init__(self, name):
         self.__name = name

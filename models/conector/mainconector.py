@@ -1,12 +1,15 @@
 import json
 
-import models.neuralNetwork.neuralnetwork as Network
-import models.simple.person as person
+from models.neuralNetwork import neuralnetwork as Network
+from models.simple import person
 
 CFG_FOR_NEURAL_NETWORK = (251, 450, 450, 450, 450, 450, 450, 450, 47)
 TEACHING_VARIABLE = 0.72
 
-class MainConecotr(person.Person):
+LIST_OF_CRYSTALS = ['ruby', 'emerald', 'diamond', 'onyx', 'sapphire']
+LIST_OF_CRYSTALS_WITH_GOLD = ['ruby', 'emerald', 'diamond', 'onyx', 'sapphire', 'gold']
+
+class MainConnecotr(person.Person):
     def __init__(self, number, path, **kwargs):
         super().__init__(number, path)
         self.__moves = None
@@ -24,7 +27,7 @@ class MainConecotr(person.Person):
     def save_object(self):
         if self.__object is None or self.__stats is None:
             raise Exception
-        with open(self.get_path() + ".json", 'w') as outfile:
+        with open(f"{self.get_path()}.json", 'w') as outfile:
             data = {'stats':self.__stats, 'neuralNetwork':self.__object.transform_to_object()}
             json.dump(data, outfile)
             outfile.close()
@@ -35,7 +38,7 @@ class MainConecotr(person.Person):
     def load_object(self):
         if self.__stats is not None or self.__object is not None:
             raise Exception
-        with open(self.get_path() + ".json", 'r') as json_file:
+        with open(f"{self.get_path()}.json", 'r') as json_file:
             data = json.load(json_file)
             self.__object = Network.NeuralNetwork()
             self.__object.transform_from_object(data['neuralNetwork'])
@@ -89,7 +92,7 @@ class MainConecotr(person.Person):
         return posible_moves[highest_score]['move']
 
     def load_output(self):
-        with open("AI\\moves.json", 'r') as json_file:
+        with open("AI/moves.json", 'r') as json_file:
             moves = json.load(json_file)
             json_file.close()
         self.__moves = moves
@@ -100,7 +103,7 @@ def create_input(game, player, oponent):
     output = []
     for i in [player, oponent]:
         output.append(game.get_player(i).get_victory_points())
-        for j in ['ruby', 'emerald', 'diamond', 'onyx', 'sapphire']:
+        for j in LIST_OF_CRYSTALS:
             output.append(int(game.get_player(i).get_cards_count_by_type(j)))
             output.append(int(game.get_player(i).get_coin_count_by_type(j)))
         golds = game.get_player(i).get_cards_by_type('gold')
@@ -112,7 +115,7 @@ def create_input(game, player, oponent):
             output += [0 for l in range(11)]
     # game
     output.append(game.get_round())
-    for i in ['ruby', 'emerald', 'diamond', 'onyx', 'sapphire', 'gold']:
+    for i in LIST_OF_CRYSTALS_WITH_GOLD:
         output.append(game.get_board().get_coin_by_type(i).get_count())
     for i in range(0, 4):
         for j in range(1, 4):

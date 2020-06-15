@@ -1,8 +1,8 @@
 import functools
 import tkinter as tk
 
-import models.GUI.frame as my_frame
-import models.GUI.acceptionboard as acception_board
+from models.GUI import frame as my_frame
+from models.GUI import acceptionboard as acception_board
 
 BORDER_LORDS_X = 10
 BORDER_LORDS_Y = 10
@@ -10,8 +10,8 @@ BORDER_LORDS_Y = 10
 BORDER_CRYSTAL_X = 10
 BORDER_CRYSTAL_Y = 8
 
-LIST_OF_CARDS = [['high', 1], ['medium', 2], ['low', 3]]
-LIST_OF_COINS = [[0, 'diamond'], [1, 'ruby'], [2, 'onyx'], [3, 'sapphire'], [4, 'emerald'], [5, 'gold']]
+LIST_OF_CARDS = [('high', 1), ('medium', 2), ('low', 3)]
+LIST_OF_COINS = [(0, 'diamond'), (1, 'ruby'), (2, 'onyx'), (3, 'sapphire'), (4, 'emerald'), (5, 'gold')]
 LIST_OF_CRYSTALS = ['diamond', 'ruby', 'onyx', 'sapphire', 'emerald', 'gold']
 
 ACCEPTION_BOARD_PROPERTIES = (3, 1, 100, 0)

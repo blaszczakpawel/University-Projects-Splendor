@@ -1,7 +1,7 @@
-import models.simple.crystalcarddeck as card_deck
-import models.simple.lordsdeck as lord_deck
-import models.simple.pocket as pocket
-import models.simple.coin as coin
+from models.simple import crystalcarddeck as card_deck
+from models.simple import lordsdeck as lord_deck
+from models.simple import pocket
+from models.simple import coin
 
 GOLD_COINS_START_COUNT = 5
 DESOR_COINS_START_COUNT = 7

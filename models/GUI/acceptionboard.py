@@ -1,7 +1,7 @@
 import tkinter as tk
 import functools
 
-import models.GUI.frame as my_frame
+from models.GUI import frame
 
 class AcceptionBoard:
     def __init__(self, root, game):
@@ -11,7 +11,7 @@ class AcceptionBoard:
         self.__str = tk.StringVar()
         self.__text = "Twój ruch to:\n"
         self.__str.set(self.__text)
-        self.__board = my_frame.MyFrame(root)
+        self.__board = frame.MyFrame(root)
         self.__board.get_frame().grid(row=1, column=2)
         self.__golden_cards = []
         label = tk.Label(self.__board.get_frame(), textvariable=self.__str)
@@ -33,9 +33,8 @@ class AcceptionBoard:
             self.__golden_cards[i].grid_remove()
 
     def print_golden_cards(self):
-        counter = 0
-        for i in self.__game.get_player('actual').get_cards_by_type('gold'):
-            self.__golden_cards[counter].configure(image=i.get_small_image())
+        for counter, card in enumerate(self.__game.get_player('actual').get_cards_by_type('gold'), 0):
+            self.__golden_cards[counter].configure(image=card.get_small_image())
             self.__golden_cards[counter].grid(row=0, column=counter)
             counter += 1
 

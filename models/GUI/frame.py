@@ -1,4 +1,5 @@
 import tkinter as tk
+
 class MyFrame:
     def __init__(self,root):
         self.__frame=tk.Frame(root)

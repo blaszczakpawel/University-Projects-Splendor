@@ -139,3 +139,9 @@ class Neurone:
         return len(self.__weights)
     def set_weight(self, index, weight):
         self.__weights[index] = weight
+    def get_bias(self):
+        return self.__bias
+    def get_weights(self):
+        return self.__weights
+    def get_b(self):
+        return self.__b

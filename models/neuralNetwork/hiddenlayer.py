@@ -1,4 +1,4 @@
-import models.neuralNetwork.neurone as Neurone
+from models.neuralNetwork import neurone as Neurone
 
 class HiddenLayer:
     def __init__(self, **kwargs):
@@ -15,9 +15,9 @@ class HiddenLayer:
             else:
                 raise Exception(f"Bad name of argument {k}")
     def random_generate(self):
-        if self.__size_of_input is None or \
-            self.__count_of_neurons is None or \
-            len(self.__array_of_neurons) != 0:
+        if (self.__size_of_input is None or
+            self.__count_of_neurons is None or
+            len(self.__array_of_neurons) != 0):
             raise Exception("Hidden Layer is actualy generate")
         for i in range(self.__count_of_neurons):
             new_neurone = Neurone.Neurone(size=self.__size_of_input, teaching=True)

@@ -1,7 +1,7 @@
 import tkinter as tk
 
-import models.GUI.guiboard as gui_board
-import models.GUI.guiplayer as gui_player
+from models.GUI import guiboard as gui_board
+from  models.GUI import guiplayer as gui_player
 
 SCREAN_HEIGH = 600
 SCREAN_WEIGHT = 1200

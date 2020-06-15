@@ -1,6 +1,6 @@
 import tkinter as tk
 
-import models.game.game as game
+from models.game import game
 
 def main():
     game_to_play = game.Game()

@@ -1,4 +1,4 @@
-import models.neuralNetwork.hiddenlayer as hidden_layer
+from models.neuralNetwork import hiddenlayer as hidden_layer
 
 class NeuralNetwork:
     def __init__(self, **kwargs):
