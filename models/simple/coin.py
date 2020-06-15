@@ -15,7 +15,7 @@ class Coin:
     def change_count(self, count):
         self.__count += count
     def get_image(self):
-        if self.get_type() not in Coin.__images.keys():
+        if self.get_type() not in Coin.__images:
             Coin.__images[self.get_type()] = tk.PhotoImage(file=f"photos/Coins/{self.get_type()}.png").subsample(2)
         return Coin.__images[self.get_type()]
 
